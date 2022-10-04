@@ -1,5 +1,4 @@
 import 'package:flutter/material.dart';
-import 'package:smart_home_dashboard/util/config.dart';
 
 class HomeScreen extends StatelessWidget {
   const HomeScreen({super.key});
@@ -13,9 +12,6 @@ class HomeScreen extends StatelessWidget {
         Row(
           mainAxisAlignment: MainAxisAlignment.spaceEvenly,
           children: const [
-            SmartWidgetBox(),
-            SmartWidgetBox(),
-            SmartWidgetBox(),
             SmartWidgetBox(),
           ],
         )

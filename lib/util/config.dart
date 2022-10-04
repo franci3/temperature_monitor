@@ -1,9 +1,9 @@
 import 'package:flutter/material.dart';
 
-class SmartHomeDashboardConfig {
+class TemperatureMonitorConfig {
   static const appName = 'Smart Home Dashboard';
-  static ThemeData customThemeData = ThemeData(
-    backgroundColor: Colors.white,
+  static ThemeData customLightThemeData = ThemeData(
+    backgroundColor: const Color.fromRGBO(229, 229, 234, 1),
     primarySwatch: Colors.green,
   );
   static const Color smartBoxBorderColor = Colors.green;

@@ -1,5 +1,5 @@
-name: smart_home_dashboard
-description: Smart Home Dashboard Desktop App
+name: temperature_monitor
+description: Desktop App to Monitor your sensors
 
 # The following line prevents the package from being accidentally published to
 # pub.dev using `flutter pub publish`. This is preferred for private packages.
@@ -31,6 +31,8 @@ environment:
 dependencies:
   flutter:
     sdk: flutter
+  temperature_sensor:
+    path: /Users/franco/Development/temperature_sensor
 
 
   # The following adds the Cupertino Icons font to your application.

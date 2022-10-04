@@ -1,7 +1,7 @@
 import 'package:flutter/material.dart';
-import 'package:smart_home_dashboard/util/config.dart';
-import 'package:smart_home_dashboard/view/home/home_screen.dart';
-import 'package:smart_home_dashboard/view/shared/shared_scaffold.dart';
+import 'package:temperature_monitor/util/config.dart';
+import 'package:temperature_monitor/view/home/home_screen.dart';
+import 'package:temperature_monitor/view/shared/shared_scaffold.dart';
 
 void main() {
   runApp(const MyApp());
@@ -13,9 +13,9 @@ class MyApp extends StatelessWidget {
   @override
   Widget build(BuildContext context) {
     return MaterialApp(
-      title: SmartHomeDashboardConfig.appName,
+      title: TemperatureMonitorConfig.appName,
       debugShowCheckedModeBanner: false,
-      theme: SmartHomeDashboardConfig.customThemeData,
+      theme: TemperatureMonitorConfig.customLightThemeData,
       home: const SharedScaffold(body: HomeScreen()),
     );
   }
