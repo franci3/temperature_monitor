@@ -10,13 +10,12 @@ class SharedBottomNavigationBar extends StatefulWidget {
 
 class _SharedBottomNavigationBarState extends State<SharedBottomNavigationBar> {
   List<BottomNavigationBarItem> items = [
-    const BottomNavigationBarItem(icon: Icon(Icons.ac_unit), label: 'Temp'),
-    const BottomNavigationBarItem(icon: Icon(Icons.home), label: 'Home'),
+    const BottomNavigationBarItem(icon: Icon(Icons.ac_unit), label: 'Temperatures'),
     const BottomNavigationBarItem(
-        icon: Icon(Icons.energy_savings_leaf), label: 'Energy'),
+        icon: Icon(Icons.settings), label: 'Settings'),
   ];
 
-  int currentIndex = 1;
+  int currentIndex = 0;
 
   @override
   Widget build(BuildContext context) {
